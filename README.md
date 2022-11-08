@@ -13,6 +13,7 @@ npm install --save micromatch
 ### Usage
 
 ```
+-bash$ GIT_BRANCH=feature-foo node is-release-branch.js
 info: validating 'feature-foo' against the following configuration
 [
   '+([0-9])?(.{+([0-9]),x}).x',
