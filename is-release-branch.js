@@ -17,7 +17,7 @@ const default_value = [
 var releaserc;
 
 if (fs.existsSync('.releaserc.json')) {
-  let rawdata    = fs.readFileSync('.releaserc.json');
+  let rawdata = fs.readFileSync('.releaserc.json');
   releaserc = JSON.parse(rawdata);
 } else {
   releaserc = [];
